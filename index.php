@@ -13,6 +13,22 @@
     <title>Hello, world!</title>
   </head>
   <body>
+  <main class="container">
+      <div class="row fixed-top" id="header">
+        <div class="col-12">
+          <?php 
+            include("./header.html");
+          ?>
+        </div>
+      </div>
+      <div class="row" id="navigation">
+        <div class="col-12">
+          <?php 
+            include("./navigation.html");
+          ?>
+        </div>
+      </div>
+
     <h1>Hello, world!</h1>
 
     <!-- Optional JavaScript -->
